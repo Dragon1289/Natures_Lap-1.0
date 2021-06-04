@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    font-size:20px;
+    margin:0;
+    padding:0;
+    animation: bgcolor infinite 20s;
+}
+@keyframes bgcolor{
+ 0%
+  {
+    background:#e74c3c;
+  } 
+  20%
+  {
+    background:#2980b9;
+  } 40%
+  {
+    background:#f1c40f;
+  } 60%
+  {
+    background:#8e44ad;
+  } 
+  80%
+  {
+    background:#34495e;
+  } 
+  100%
+  {
+    background:#c0392b;
+  } 
+}
+img{
+width:275px;
+height:275px;
+border:3px;
+border-style:dashed;
+border-color:#311B92;
+padding:10px;
+}
+h3{
+    color: white;
+}
+h2{
+    color: palegreen;
+}
+h4{
+    color: white;
+    font-weight: bolder;
+}
